@@ -1,9 +1,7 @@
 <% provide(:title, "Help") %>
 <h1>Help</h1>
 <p>
-  Get help on the Ruby on Rails Tutorial at the
-  <a href="http://www.railstutorial.org/#help">Rails Tutorial help section</a>.
-  To get help on this sample app, see the
-  <a href="http://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em>
-  book</a>.
+  Go to the <%= link_to "users page", users_path %> to find users to follow. 
+  <br>
+  Once you follow a user, their microposts will appears on your <%= link_to "home page", root_path %>, where you can also create your own microposts.
 </p>
